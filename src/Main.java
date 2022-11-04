@@ -28,6 +28,39 @@ public class Main {
             populationCountry = populationCountry + (populationCountry * 17 / 1000) - (populationCountry * 8 / 1000);
             System.out.println("Год " + year + " Численность населения составляет " + populationCountry);
         }
+        // Задание 2-1
+        // int money = 15000;
+        // int month = 0;
+        // while (money < 12_000_000) {
+        // month++;
+        // money = money + (money * 7 / 100);
+        // System.out.println("Месяц " + month + " Накопленная сумма " + money);
+        // }
+
+        // Задание 2-2
+        int money = 15000;
+        int month = 0;
+        while (money < 12_000_000) {
+            month++;
+            money = money + (money * 7 / 100);
+            if (month % 6 == 0 || money >= 12_000_000)
+            System.out.println("Месяц " + month + " Накопленная сумма " + money);
+        }
+        // Задание 2-3
+        int money1 = 15000;
+        int month1 = 0;
+        while (month1 <= 108) { // 9лет это 108мес.
+            month1++;
+            money1 = money1 + (money1 * 7 / 100);
+            if (month1 % 6 == 0)
+                System.out.println("Месяц " + month1 + " Накопленная сумма " + money1);
+        }
+        // Задание 2-4
+        int Friday = 7; // первая пятница октября 2022г.
+        while (Friday <=31) {
+            System.out.println("Сегодня пятница " + Friday + "-е число. Нужно приготовить отчет");
+            Friday = Friday + 7;
+        }
 
     }
 
