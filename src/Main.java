@@ -74,7 +74,7 @@ public class Main {
             result = factor * i;
             System.out.println(factor + " * "  + i + " = " + result);
         }
-
+        // pullRequest сделан
 
     }
 
