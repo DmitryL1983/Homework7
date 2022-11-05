@@ -61,6 +61,20 @@ public class Main {
             System.out.println("Сегодня пятница " + Friday + "-е число. Нужно приготовить отчет");
             Friday = Friday + 7;
         }
+        // Задание 3-1
+        int currentYear = 2022;
+        for (int Y = 0; Y <= currentYear + 100; Y = Y + 79) {
+            if (Y > currentYear - 200)
+                System.out.println(Y);
+        }
+        // Задание 3-2
+        int factor = 2;
+        int result = 0;
+        for (int i = 1; i <= 10; i++) {
+            result = factor * i;
+            System.out.println(factor + " * "  + i + " = " + result);
+        }
+
 
     }
 
